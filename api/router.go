@@ -1,10 +1,11 @@
 package api
 
 import (
-	"github.com/jordyvanvorselen/go-templ-htmx-vercel-template/controllers"
+	"net/http"
+
 	"github.com/labstack/echo/v4"
 	"github.com/labstack/echo/v4/middleware"
-	"net/http"
+	"github.com/timmattison/go-templ-htmx-vercel-template/controllers"
 )
 
 func Handler(w http.ResponseWriter, r *http.Request) {

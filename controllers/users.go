@@ -1,8 +1,8 @@
 package controllers
 
 import (
-	"github.com/jordyvanvorselen/go-templ-htmx-vercel-template/views/users"
 	"github.com/labstack/echo/v4"
+	"github.com/timmattison/go-templ-htmx-vercel-template/views/users"
 )
 
 type UserHandler struct{}
